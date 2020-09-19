@@ -1,0 +1,15 @@
+[debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/week-3_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Dog.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/Dog.class
+[debug] 	Main$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/Main$.class
+[debug] 	Pet.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/Pet.class
+[debug] 	TailWagger.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/TailWagger.class
+[debug] 	Main.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/Main.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 3/target/scala-2.13/classes/Main$delayedInit$body.class
+[debug] Done packaging.
