@@ -1,0 +1,35 @@
+[debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/test2_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	HelloWorldBot$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldBot$.class
+[debug] 	HelloWorldBot.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldBot.class
+[debug] 	HelloWorld$Greet$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greet$.class
+[debug] 	HelloWorld.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld.class
+[debug] 	HelloWorld$Greeted2$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greeted2$.class
+[debug] 	HelloWorld$Greeted.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greeted.class
+[debug] 	HelloWorld$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$.class
+[debug] 	HelloWorld$Greeted2.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greeted2.class
+[debug] 	HelloWorldMain.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldMain.class
+[debug] 	HelloWorld$Greet2.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greet2.class
+[debug] 	HelloWorld$Greet2$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greet2$.class
+[debug] 	HelloWorldMain$SayHello$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldMain$SayHello$.class
+[debug] 	HelloWorld$Greet.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greet.class
+[debug] 	HelloWorld$Greeted$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorld$Greeted$.class
+[debug] 	HelloWorldMain$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldMain$.class
+[debug] 	HelloWorldMain$SayHello.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/Test2/target/scala-2.13/classes/HelloWorldMain$SayHello.class
+[debug] Done packaging.

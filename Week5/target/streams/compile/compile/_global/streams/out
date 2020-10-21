@@ -1,0 +1,5 @@
+[warn] /Users/bsnbk/Documents/KBTU/2020/backend/Week5/src/main/scala/Main.scala:45:19: match may not be exhaustive.
+[warn] It would fail on the following input: Failure(_)
+[warn]     n1.onComplete {
+[warn]                   ^
+[warn] one warning found
