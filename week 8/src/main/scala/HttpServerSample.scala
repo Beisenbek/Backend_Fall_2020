@@ -1,16 +1,21 @@
+import java.io.File
+
 import akka.actor.typed.ActorSystem
 import akka.actor.typed.scaladsl.Behaviors
 import org.slf4j.{Logger, LoggerFactory}
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.model.Multipart.BodyPart
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.{Directives, Route}
 import akka.routing.Router
 import akka.stream.Supervision.Directive
+import akka.stream.scaladsl.FileIO
 import io.circe.generic.auto._
 import de.heikoseeberger.akkahttpcirce._
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.duration.DurationInt
+import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
 
@@ -36,6 +41,51 @@ class MyRouter(val todoRepository: TodoRepository)(implicit system: ActorSystem[
 
   import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._
   import  io.circe.generic.auto._
+
+
+  case class Video(file: File, title: String, author: String)
+  object db {
+    def create(video: Video): Future[Unit] = Future.successful(())
+  }
+
+  val uploadVideo =
+    path("video") {
+      entity(as[Multipart.FormData]) { formData =>
+
+        // collect all parts of the multipart as it arrives into a map
+        val allPartsF: Future[Map[String, Any]] = formData.parts.mapAsync[(String, Any)](1) {
+
+          case b: BodyPart if b.name == "file" =>
+            // stream into a file as the chunks of it arrives and return a future
+            // file to where it got stored
+            val file = File.createTempFile("upload", "tmp")
+            b.entity.dataBytes.runWith(FileIO.toPath(file.toPath)).map(_ =>
+              (b.name -> file))
+
+          case b: BodyPart =>
+            // collect form field values
+            b.toStrict(2.seconds).map(strict =>
+              (b.name -> strict.entity.data.utf8String))
+
+        }.runFold(Map.empty[String, Any])((map, tuple) => map + tuple)
+
+        val done = allPartsF.map { allParts =>
+          // You would have some better validation/unmarshalling here
+          db.create(Video(
+            file = allParts("file").asInstanceOf[File],
+            title = allParts("title").asInstanceOf[String],
+            author = allParts("author").asInstanceOf[String]))
+        }
+
+        // when processing have finished create a response for the user
+        onSuccess(allPartsF) { allParts =>
+          complete {
+            "ok!"
+          }
+        }
+      }
+    }
+
 
   override def route = {
     concat(
@@ -77,7 +127,7 @@ object HttpServerSample {
       val todoRepository = new InMemoryTodoRepository(todos)(context.executionContext)
       val router = new MyRouter(todoRepository)(context.system, context.executionContext)
 
-      MyServer.startHttpServer(router.route)(context.system, context.executionContext)
+      MyServer.startHttpServer(router.uploadVideo)(context.system, context.executionContext)
       Behaviors.empty
     }
     val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
