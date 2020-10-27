@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/akka-http-sample_2.13-0.1.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$Video.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$Video.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$159$1$$anon$2.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$anon$importedEncoder$macro$159$1$$anon$2.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/InMemoryTodoRepository.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$159$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$anon$importedEncoder$macro$159$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$db$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$db$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$159$1$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$anon$importedEncoder$macro$159$1$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HttpServerSample$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/HttpServerSample$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HttpServerSample.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/HttpServerSample.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyServer$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyServer.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyServer.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	InMemoryTodoRepository$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/InMemoryTodoRepository$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$anon$importedEncoder$macro$159$1$anon$macro$157$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$anon$importedEncoder$macro$159$1$anon$macro$157$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Router.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/Router.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MyRouter$Video$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/MyRouter$Video$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Todo$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/Todo$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	TodoRepository.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/TodoRepository.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Todo.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9/target/scala-2.13/classes/Todo.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

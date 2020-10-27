@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/scala-2.13/akka-http-sample_2.13-0.2-sources.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/resources/logback.xml[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/resources/application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ApiError.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/ApiError.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Validator.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/Validator.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	TodoDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/TodoDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HttpServerSample.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/HttpServerSample.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Router.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/Router.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	HealthCheackRoute.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/HealthCheackRoute.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ValidatorDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/ValidatorDirectives.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	TodoRepository.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/TodoRepository.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Todo.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/src/main/scala/Todo.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

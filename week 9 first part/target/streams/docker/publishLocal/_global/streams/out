@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t akkahttp-quickstart:0.2 .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/docker/stage[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  39.13MB[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 1/6 : FROM openjdk:8-jre-alpine[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> f7a292bbb70c[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 2/6 : WORKDIR /opt/docker[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 5bb1f1b91808[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 32a8b3d24e5e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 4/6 : USER daemon[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 2ff42d4d0c49[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2ff42d4d0c49[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 9fe8a35b6ec2[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 5/6 : ENTRYPOINT ["/opt/docker/bin/akka-http-sample"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 450d7561fbf1[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 450d7561fbf1[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 9bd0bc959ca0[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 6/6 : CMD ["/opt/docker/bin/akkahttp-quickstart"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 70c124260366[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 70c124260366[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 53df06096189[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 53df06096189[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged akkahttp-quickstart:0.2[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image akkahttp-quickstart with tags [0.2][0m[0J
