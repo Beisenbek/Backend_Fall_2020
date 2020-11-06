@@ -1,6 +1,87 @@
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 41 products, 10 sources, 11 libraries[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/TodoRepository.scala, ${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/HealthCheackRoute.scala, ${BASE}/src/main/scala/Router.scala, ${BASE}/src/main/scala/HttpServerSample.scala, ${BASE}/src/main/scala/TodoDirectives.scala, ${BASE}/src/main/scala/ValidatorDirectives.scala, ${BASE}/src/main/scala/Todo.scala, ${BASE}/src/main/scala/ApiError.scala, ${BASE}/src/main/scala/Server.scala)[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m[0J
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 41 products, 10 sources, 11 libraries
+[debug] current source = Set(${BASE}/src/main/scala/TodoRepository.scala, ${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/HealthCheackRoute.scala, ${BASE}/src/main/scala/Router.scala, ${BASE}/src/main/scala/HttpServerSample.scala, ${BASE}/src/main/scala/TodoDirectives.scala, ${BASE}/src/main/scala/ValidatorDirectives.scala, ${BASE}/src/main/scala/Todo.scala, ${BASE}/src/main/scala/ApiError.scala, ${BASE}/src/main/scala/Server.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/Todo.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Todo.class, ${BASE}/target/scala-2.13/classes/CreateTodoValidator$.class, ${BASE}/target/scala-2.13/classes/CreateTodo$.class, ${BASE}/target/scala-2.13/classes/Todo$.class, ${BASE}/target/scala-2.13/classes/CreateTodo.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/Todo.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Todo.class, ${BASE}/target/scala-2.13/classes/CreateTodoValidator$.class, ${BASE}/target/scala-2.13/classes/CreateTodo$.class, ${BASE}/target/scala-2.13/classes/Todo$.class, ${BASE}/target/scala-2.13/classes/CreateTodo.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(CreateTodoValidator, Validator, Todo, CreateTodo)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/Todo.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(CreateTodoValidator, Validator, Todo, CreateTodo)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Validator.scala, ${BASE}/src/main/scala/Todo.scala)
+[debug] Initial set of included nodes: CreateTodoValidator, Validator, Todo, CreateTodo
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.1:compile for Scala 2.13.3
+[debug] [zinc] Running cached compiler 59e1105b for Scala compiler version 2.13.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	/Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/scala-2.13/classes:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.1/akka-http_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.13.0/circe-generic_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.13.0/circe-parser_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/heikoseeberger/akka-http-circe_2.13/1.31.0/akka-http-circe_2.13-1.31.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.1/akka-http-core_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.0/cats-core_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.13.0/circe-jawn_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.1/akka-parsing_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.0/cats-macros_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.0/cats-kernel_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar
+[debug] Invalidating (transitively) by inheritance from Todo...
+[debug] Initial set of included nodes: Todo
+[debug] Invalidated by transitive inheritance dependency: Set(Todo)
+[debug] None of the modified names appears in source file of TodoRepository. This dependency is not being considered for invalidation.
+[debug] The following modified names cause invalidation of MyRouter: Set(UsedName(apply,[Default]))
+[debug] The following modified names cause invalidation of InMemoryTodoRepository: Set(UsedName(apply,[Default]))
+[debug] The following modified names cause invalidation of HttpServerSample: Set(UsedName(apply,[Default]))
+[debug] Change NamesChange(Todo,ModifiedNames(changes = UsedName(Todo;init;,[Default]), UsedName(<init>$default$2,[Default]), UsedName(apply,[Default]), UsedName(apply$default$2,[Default]))) invalidates 4 classes due to The Todo has the following regular definitions changed:
+[debug] 	UsedName(Todo;init;,[Default]), UsedName(<init>$default$2,[Default]), UsedName(apply,[Default]), UsedName(apply$default$2,[Default]).
+[debug]   > by transitive inheritance: Set(Todo)
+[debug]   > 
+[debug]   > by member reference: Set(MyRouter, InMemoryTodoRepository, HttpServerSample)
+[debug]         
+[debug] Invalidating (transitively) by inheritance from CreateTodo...
+[debug] Initial set of included nodes: CreateTodo
+[debug] Invalidated by transitive inheritance dependency: Set(CreateTodo)
+[debug] The following modified names cause invalidation of CreateTodoValidator: Set(UsedName(apply,[Default]))
+[debug] None of the modified names appears in source file of TodoRepository. This dependency is not being considered for invalidation.
+[debug] The following modified names cause invalidation of MyRouter: Set(UsedName(apply,[Default]))
+[debug] The following modified names cause invalidation of InMemoryTodoRepository: Set(UsedName(apply,[Default]))
+[debug] Change NamesChange(CreateTodo,ModifiedNames(changes = UsedName(apply$default$1,[Default]), UsedName(apply,[Default]), UsedName(<init>$default$1,[Default]), UsedName(CreateTodo;init;,[Default]))) invalidates 4 classes due to The CreateTodo has the following regular definitions changed:
+[debug] 	UsedName(apply$default$1,[Default]), UsedName(apply,[Default]), UsedName(<init>$default$1,[Default]), UsedName(CreateTodo;init;,[Default]).
+[debug]   > by transitive inheritance: Set(CreateTodo)
+[debug]   > 
+[debug]   > by member reference: Set(CreateTodoValidator, MyRouter, InMemoryTodoRepository)
+[debug]         
+[debug] New invalidations:
+[debug] 	MyRouter
+[debug] 	InMemoryTodoRepository
+[debug] 	HttpServerSample
+[debug] 	CreateTodoValidator
+[debug] Initial set of included nodes: MyRouter, InMemoryTodoRepository, HttpServerSample, CreateTodoValidator
+[debug] Including HttpServerSample by MyRouter
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set(MyRouter, InMemoryTodoRepository, HttpServerSample, CreateTodoValidator)
+[debug] Invalidated classes: MyRouter, InMemoryTodoRepository, HttpServerSample, CreateTodoValidator
+[debug] Scala compilation took 3.798614772 s
+[info] done compiling
+[debug] Initial set of included nodes: MyRouter, InMemoryTodoRepository, HttpServerSample, CreateTodoValidator
+[debug] compilation cycle 2
+[info] compiling 4 Scala sources to /Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.1:compile for Scala 2.13.3
+[debug] [zinc] Running cached compiler 40429d9e for Scala compiler version 2.13.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	/Users/bsnbk/Documents/KBTU/2020/backend/week 9 first part/target/scala-2.13/classes:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.1/akka-http_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.13.0/circe-generic_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.13.0/circe-parser_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/heikoseeberger/akka-http-circe_2.13/1.31.0/akka-http-circe_2.13-1.31.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.1/akka-http-core_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.0/cats-core_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.13.0/circe-jawn_2.13-0.13.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.1/akka-parsing_2.13-10.2.1.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.0/cats-macros_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.0/cats-kernel_2.13-2.1.0.jar:/Users/bsnbk/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 4.500684491 s
+[info] done compiling

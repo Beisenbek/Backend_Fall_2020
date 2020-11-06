@@ -1,5 +1,6 @@
 import java.util.UUID
 
+
 import scala.concurrent.{ExecutionContext, Future}
 
 trait TodoRepository {
@@ -22,14 +23,19 @@ class InMemoryTodoRepository(todo:Seq[Todo] = Seq.empty)(implicit  ex:ExecutionC
 
   override def pending(): Future[Seq[Todo]] = Future.successful(todos.filterNot(_.done))
 
-  override def create(createTodo: CreateTodo): Future[Todo] = Future.successful {
-    val todo = Todo(
-      id = UUID.randomUUID().toString,
-      title = createTodo.title,
-      description = createTodo.description,
-      done = false
-    )
-    todos = todos :+ todo
-    todo
-  }
+  override def create(createTodo: CreateTodo): Future[Todo] =
+    if (createTodo.description.startsWith("e1")) Future.failed {
+      new Exception("e1")
+    }
+    else
+      Future.successful {
+        val todo = Todo(
+          id = UUID.randomUUID().toString,
+          title = createTodo.title,
+          description = createTodo.description,
+          done = false
+        )
+        todos = todos :+ todo
+        todo
+      }
 }

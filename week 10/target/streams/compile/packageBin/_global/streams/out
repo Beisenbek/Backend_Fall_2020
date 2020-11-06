@@ -1,0 +1,11 @@
+[debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/week-10_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	MainApp.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/MainApp.class
+[debug] 	MainApp$delayedInit$body.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/MainApp$delayedInit$body.class
+[debug] 	application.conf
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/application.conf
+[debug] 	MainApp$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/MainApp$.class
+[debug] Done packaging.

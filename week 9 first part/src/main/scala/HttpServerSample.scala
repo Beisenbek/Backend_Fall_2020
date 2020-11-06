@@ -14,8 +14,8 @@ object HttpServerSample {
     val rootBehavior = Behaviors.setup[Nothing] { context =>
 
       val todos: Seq[Todo] = Seq(
-        Todo("1", "title1", "description1", true),
-        Todo("2", "title2", "description2", false)
+        Todo("1", Some("title1"), "description1", true),
+        Todo("2", Some("title2"), "description2", false)
       )
 
       val todoRepository = new InMemoryTodoRepository(todos)(context.executionContext)
