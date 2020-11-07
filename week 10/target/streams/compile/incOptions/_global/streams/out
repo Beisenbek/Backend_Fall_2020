@@ -3,12 +3,15 @@
 [debug] 	MainApp.class
 [debug] 	MainApp$.class
 [debug] 	MainApp$delayedInit$body.class
+[debug] 	MainApp$OffsetStore$1.class
 [debug] We backup class files:
 [debug] 	MainApp.class
 [debug] 	MainApp$.class
 [debug] 	MainApp$delayedInit$body.class
+[debug] 	MainApp$OffsetStore$1.class
 [debug] Registering generated classes:
 [debug] 	MainApp.class
 [debug] 	MainApp$.class
 [debug] 	MainApp$delayedInit$body.class
+[debug] 	MainApp$OffsetStore$1.class
 [debug] Removing the temporary directory used for backing up class files: /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes.bak

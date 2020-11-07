@@ -1,5 +1,7 @@
 [debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/week-10_2.13-0.1.jar ...
 [debug] Input file mappings:
+[debug] 	MainApp$OffsetStore$1.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/MainApp$OffsetStore$1.class
 [debug] 	MainApp.class
 [debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 10/target/scala-2.13/classes/MainApp.class
 [debug] 	MainApp$delayedInit$body.class

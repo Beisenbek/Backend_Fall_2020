@@ -1,12 +1,19 @@
+import java.util.concurrent.atomic.AtomicLong
+
 import akka.{Done, NotUsed}
 import akka.actor.ActorSystem
-import akka.kafka.ProducerSettings
-import akka.kafka.scaladsl.Producer
+import akka.kafka.scaladsl.Consumer.DrainingControl
+import akka.kafka.{ConsumerSettings, ProducerSettings, Subscriptions}
+import akka.kafka.scaladsl.{Consumer, Producer}
 import akka.stream.ClosedShape
 import akka.stream.scaladsl.GraphDSL.Implicits.{SourceArrow, port2flow}
 import akka.stream.scaladsl.{Broadcast, Flow, GraphDSL, Keep, RunnableGraph, Sink, Source}
+import org.apache.kafka.clients.consumer.{ConsumerConfig, ConsumerRecord}
 import org.apache.kafka.clients.producer.ProducerRecord
-import org.apache.kafka.common.serialization.StringSerializer
+import org.apache.kafka.common.TopicPartition
+import org.apache.kafka.common.serialization.{Deserializer, StringDeserializer, StringSerializer}
+
+import org.apache.kafka.common.serialization.{Deserializer, Serializer, StringDeserializer, StringSerializer}
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
@@ -150,6 +157,39 @@ object MainApp extends  App {
 
   }
 
-  f7()
+  def f8() = {
+    class OffsetStore {
+      private val offset = new AtomicLong
+      def businessLogicAndStoreOffset(record: ConsumerRecord[String, String]): Future[Done] = {
+        println(s"DB.save: ${record.value}")
+        offset.set(record.offset)
+        Future.successful(Done)
+      }
+      def loadOffset(): Future[Long] = {
+        Future.successful(offset.get)
+      }
+    }
+    val topic = system.settings.config.getString("akka.kafka.producer.kafka-clients.topic")
+    val bootstrapServers = system.settings.config.getString("akka.kafka.producer.kafka-clients.server")
 
+    val consumerSettings = ConsumerSettings(system, new StringDeserializer, new StringDeserializer)
+      .withBootstrapServers(bootstrapServers)
+      .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")
+      .withClientId("externalOffsetStorage")
+
+    val db = new OffsetStore
+    db.loadOffset().map { fromOffset =>
+      Consumer
+        .plainSource(
+          consumerSettings,
+          Subscriptions.assignmentWithOffset(
+            new TopicPartition(topic, 0) -> fromOffset
+          )
+        )
+        .mapAsync(1)(db.businessLogicAndStoreOffset)
+        .toMat(Sink.seq)(DrainingControl.apply)
+        .run()
+    }
+  }
+  f8()
 }
