@@ -1,0 +1,9 @@
+[debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/processorfibonacci_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Boot$delayedInit$body.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot$delayedInit$body.class
+[debug] 	Boot.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot.class
+[debug] 	Boot$.class
+[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot$.class
+[debug] Done packaging.
