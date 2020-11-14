@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/processorfibonacci_2.13-0.1-sources.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/resources/application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/Boot.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/Boot.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/NodeRouter.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/api/NodeRouter.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/api/Server.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/node/Node.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service/FibonacciService.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/service/FibonacciService.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterManager.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/node/cluster/ClusterManager.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/node/cluster/ClusterListener.scala[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

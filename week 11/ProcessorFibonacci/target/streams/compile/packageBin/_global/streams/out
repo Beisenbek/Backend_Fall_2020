@@ -1,9 +1,65 @@
-[debug] Packaging /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/processorfibonacci_2.13-0.1.jar ...
-[debug] Input file mappings:
-[debug] 	Boot$delayedInit$body.class
-[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot$delayedInit$body.class
-[debug] 	Boot.class
-[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot.class
-[debug] 	Boot$.class
-[debug] 	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/Boot$.class
-[debug] Done packaging.
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/processorfibonacci_2.13-0.1.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/application.conf[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/Boot.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/Boot.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/api[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/NodeRouter.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/api/NodeRouter.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/Server$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/api/Server$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/Server.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/api/Server.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/api/Router.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/api/Router.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$FindNumberPing.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$FindNumberPing.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$Pong.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$Pong.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$MemberChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$MemberChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$ReachabilityChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$ReachabilityChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$ReachabilityChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$ReachabilityChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$Event.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$Event.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/cluster/ClusterListener$MemberChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/cluster/ClusterListener$MemberChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$Command.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$Command.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$FindNumberPing$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$FindNumberPing$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node$Pong$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node$Pong$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/node/Node.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/node/Node.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/service[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service/FibonacciService$Ping.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/service/FibonacciService$Ping.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service/FibonacciService$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/service/FibonacciService$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service/FibonacciService$Ping$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/service/FibonacciService$Ping$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/service/FibonacciService.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/service/FibonacciService.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	kz/kbtu/Boot$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes/kz/kbtu/Boot$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

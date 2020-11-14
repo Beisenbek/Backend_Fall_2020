@@ -1,2 +1,5 @@
-[debug] Acquiring lock on file /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project/target/.sbt-compilation-infos/processorfibonacci-compile/.sbt-idea-lock ...
-[debug] Releasing lock on file /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project/target/.sbt-compilation-infos/processorfibonacci-compile/.sbt-idea-lock.
+[warn] /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/src/main/scala/kz/kbtu/node/Node.scala:37:9: match may not be exhaustive.
+[warn] It would fail on the following input: Pong(_, _)
+[warn]         message match {
+[warn]         ^
+[warn] one warning found

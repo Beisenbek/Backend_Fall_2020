@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t bsnbk/processorfibonacci:latest .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/docker/stage[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  52.03MB[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 1/7 : FROM java:8-jre-alpine[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> fdc893b19a14[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 2/7 : WORKDIR /opt/docker[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Using cache[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 3678320e6795[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 3/7 : ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> dfc3e7ae8e39[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 4/7 : EXPOSE 8000[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 00fbdb6f6eab[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 00fbdb6f6eab[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 02b3fb59e81d[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 5/7 : USER daemon[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 6f616fa9c013[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 6f616fa9c013[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 4dc3647b9e01[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 6/7 : ENTRYPOINT ["/opt/docker/bin/processorfibonacci"][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 5d2272180a0a[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 5d2272180a0a[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> f92079a8b412[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mStep 7/7 : CMD [][0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 25e28df47c7e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 25e28df47c7e[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m ---> 6aab6c0040f9[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built 6aab6c0040f9[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged bsnbk/processorfibonacci:latest[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image bsnbk/processorfibonacci with tags [latest][0m[0J

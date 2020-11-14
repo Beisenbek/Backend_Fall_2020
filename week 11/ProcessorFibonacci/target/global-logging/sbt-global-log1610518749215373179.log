@@ -1,0 +1,91 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 1.8.0_241)
+[debug]       Load.loadUnit: plugins took 85.310579ms
+[debug]       Load.loadUnit: defsScala took 0.355234ms
+[debug] [Loading] Scanning directory /Users/bsnbk/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/bsnbk/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.271165 ms
+[debug]           Load.resolveProject(global-plugins) took 46.242768ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/bsnbk/.sbt/1.0/plugins, plugins: List(<none>))) took 98.518569ms
+[debug] [Loading] Done in /Users/bsnbk/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 220.450482ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.258815ms
+[debug]     Load.loadUnit(file:/Users/bsnbk/.sbt/1.0/plugins/, ...) took 314.156465ms
+[debug]   Load.apply: load took 5580.29714ms
+[debug]   Load.apply: resolveProjects took 6.083519ms
+[debug]   Load.apply: finalTransforms took 52.677862ms
+[debug]   Load.apply: config.delegates took 6.747811ms
+[debug]   Load.apply: Def.make(settings)... took 313.50624ms
+[debug]   Load.apply: structureIndex took 82.245536ms
+[debug]   Load.apply: mkStreams took 1.406821ms
+[info] loading global plugins from /Users/bsnbk/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 12189.602333ms
+[debug]           Load.loadUnit: plugins took 15.398731ms
+[debug]           Load.loadUnit: defsScala took 0.003708ms
+[debug] [Loading] Scanning directory /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project
+[debug]             Load.loadUnit: mkEval took 7.391592ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.051397 ms
+[info] loading settings for project processorfibonacci-build from plugins.sbt ...
+[debug]               Load.resolveProject(processorfibonacci-build) took 2.964423ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id processorfibonacci-build, base: /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project, plugins: List(<none>))) took 5.602593ms
+[debug] [Loading] Done in /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project, returning: (processorfibonacci-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 130.544115ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.006976ms
+[debug]         Load.loadUnit(file:/Users/bsnbk/Documents/KBTU/2020/backend/week%2011/ProcessorFibonacci/project/, ...) took 150.773071ms
+[debug]       Load.apply: load took 151.968044ms
+[debug]       Load.apply: resolveProjects took 0.095361ms
+[debug]       Load.apply: finalTransforms took 8.058311ms
+[debug]       Load.apply: config.delegates took 0.433053ms
+[debug]       Load.apply: Def.make(settings)... took 81.917627ms
+[debug]       Load.apply: structureIndex took 23.263683ms
+[debug]       Load.apply: mkStreams took 0.002403ms
+[info] loading project definition from /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 661.371009ms
+[debug]     Load.loadUnit: defsScala took 0.002837ms
+[debug] [Loading] Scanning directory /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci
+[debug]       Load.loadUnit: mkEval took 0.250287ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging), Atom(com.typesafe.sbt.packager.docker.DockerPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,sbt.plugins.IvyPlugin,sbt.plugins.Giter8TemplatePlugin,com.typesafe.sbt.packager.debian.DebianPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.SbtNativePackager,com.typesafe.sbt.packager.linux.LinuxPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.129416 ms
+[info] loading settings for project processorfibonacci from build.sbt ...
+[debug]         Load.resolveProject(processorfibonacci) took 45.167137ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id processorfibonacci, base: /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci, plugins: List(<none>))) took 50.650072ms
+[debug] [Loading] Done in /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci, returning: (processorfibonacci)
+[debug]     Load.loadUnit: loadedProjectsRaw took 142.58415ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.084648ms
+[debug]   Load.loadUnit(file:/Users/bsnbk/Documents/KBTU/2020/backend/week%2011/ProcessorFibonacci/, ...) took 807.635201ms
+[debug] Load.apply: load took 809.466373ms
+[debug] Load.apply: resolveProjects took 0.098998ms
+[debug] Load.apply: finalTransforms took 6.126882ms
+[debug] Load.apply: config.delegates took 0.679892ms
+[debug] Load.apply: Def.make(settings)... took 65.036396ms
+[debug] Load.apply: structureIndex took 33.713376ms
+[debug] Load.apply: mkStreams took 0.002122ms
+[info] set current project to ProcessorFibonacci (in build file:/Users/bsnbk/Documents/KBTU/2020/backend/week%2011/ProcessorFibonacci/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

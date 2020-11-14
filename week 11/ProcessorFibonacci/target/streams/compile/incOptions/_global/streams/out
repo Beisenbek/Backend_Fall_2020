@@ -1,8 +1,29 @@
-[debug] Created transactional ClassFileManager with tempDir = /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
-[debug] Registering generated classes:
-[debug] 	Boot.class
-[debug] 	Boot$delayedInit$body.class
-[debug] 	Boot$.class
-[debug] Removing the temporary directory used for backing up class files: /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes.bak
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes.bak[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$MemberChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$Command.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$ReachabilityChange$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Boot.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$Pong.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$FindNumberPing$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FibonacciService$Ping.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Server.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Router.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Server$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$Event.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FibonacciService$Ping$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$MemberChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FibonacciService$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FibonacciService.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ClusterListener$ReachabilityChange.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$FindNumberPing.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Node$Pong$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Boot$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	NodeRouter.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/bsnbk/Documents/KBTU/2020/backend/week 11/ProcessorFibonacci/target/scala-2.13/classes.bak[0m[0J
